@@ -4,7 +4,7 @@ function checkMessage() {
 	if (message.includes("FR")|| message.includes("fr") || message.includes("FR") && message.includes("AI")) {
 		document.getElementById('result').innerHTML = "The message " + message + " is legitimate.";		
 	}
-	else if (message.includes("AI") || message.includes("aI") || message.includes("Ai") {
+	else if (message.includes("AI") || message.includes("aI") || message.includes("Ai")) {
 		document.getElementById('result').innerHTML = "The message " + message + " is tampered with.";
 	}
 	else {
